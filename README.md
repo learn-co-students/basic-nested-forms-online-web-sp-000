@@ -13,7 +13,7 @@
     associations with custom logic (like unique by name) on the nested `params`
     association data.
 6.  Use `fields_for` to generate the association fields.
-
+And now for something completely different
 ## Data model
 
 Let's say we're writing an address book.
