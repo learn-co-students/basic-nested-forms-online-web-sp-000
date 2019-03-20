@@ -18,7 +18,7 @@
 
 Let's say we're writing an address book.
 
-Each `Person` can have multiple addresses. Each `Address` has a bunch of address
+Each `Person` can have multiple addresses.  Each `Address` has a bunch of address
 info fields.
 
 Our data model looks like this:
