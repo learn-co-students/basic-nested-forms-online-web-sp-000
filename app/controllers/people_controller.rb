@@ -9,7 +9,7 @@ class PeopleController < ApplicationController
   end
 
   def index
-    @people = Person.all
+    @people = Person.al
   end
 
   private
