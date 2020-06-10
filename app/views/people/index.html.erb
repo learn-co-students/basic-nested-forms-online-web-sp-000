@@ -2,6 +2,7 @@
 
 <% @people.each do |person| %>
   <h4><%= person.name %></h4>
+  <%= raise params.inspect %>
   <ul>
     <% person.addresses.each do |address| %>
       <li> <%= address.street_address_1 %> <%= address.city %>, <%= address.state %>
