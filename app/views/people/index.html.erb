@@ -4,7 +4,9 @@
   <h4><%= person.name %></h4>
   <ul>
     <% person.addresses.each do |address| %>
-      <li> <%= address.street_address_1 %> <%= address.city %>, <%= address.state %>
+      <li> <%= address.address_type %><br>
+        <%= address.street_address_1 %> <%= address.city %>, <%= address.state %>
+      </li>
     <% end %>
   </ul>
 <% end %>
