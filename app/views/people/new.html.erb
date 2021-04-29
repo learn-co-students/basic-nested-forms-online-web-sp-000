@@ -1,7 +1,6 @@
 <%= form_for @person do |f| %>
   <%= f.label :name %>
   <%= f.text_field :name %> <br /><br />
- <%= f.submit %>
 
  <%= fields_for :addresses do |addr| %>
   <%= addr.label :street_address_1 %>
@@ -20,7 +19,7 @@
   <%= addr.text_field :zipcode %><br>
 
   <%= addr.label :address_type %>
-  <!-- <%= addr.text_field :address_type %><br> -->
+  <%= addr.text_field :address_type %><br>
   <% end %>
 
   <%= f.submit %>
