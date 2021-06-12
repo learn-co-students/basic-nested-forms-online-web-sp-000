@@ -1,4 +1,5 @@
 class PeopleController < ApplicationController
+  # new content
   def new
     @person = Person.new
   end
